@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head><title>Student_Details</title></head>
+<body>
+    <form action="Successfully submitted">
+
+        <fieldset>
+            <legend>Personal_Details</legend>
+            <label for="fname">Full_Name </label>
+            <input type ="text" required placeholder="Satish" id ="fname" name ="fname"><br><br>
+            <label for="dob" >Date Of Birth</label>
+            <input type ="date" id ="dob" name ="dob"><br><br>
+            <label for="mail" >Mail_Id</label>
+            <input type ="mail" id ="mail" name ="mail">
+
+        </fieldset>
+        <fieldset>
+            <legend>Education_Details</legend>
+            <label for="" >Department</label><br><br>
+            <input type ="radio" id = "cs" name = "dept">
+            <label for="cs" >CSE</label><br><br>
+            <input type ="radio" id = "IT" name = "dept">
+            <label for="IT" >IT</label><br><br>
+            <input type ="radio" id = "EEE" name = "dept">
+            <label for="EEE" >EEE</label><br><br>
+            <label for="">Skills</label><br><br>
+            <input type="checkbox" id ="java" name ="java">
+            <label for="java" >JAVA</label><br><br>
+            <input type="checkbox" id ="python" name ="java">
+            <label for="python" >PYTHON</label><br><br>
+            <input type="checkbox" id ="SQL" name ="java">
+            <label for="SQL" >SQL</label><br><br>
+            <label for="">YOJ</label>
+            <input list="yog" id="yop" name ="yop">
+            <datalist id ="yog">
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+
+            </datalist><br><br>
+            <input type ="submit" id="submit" name ="submit">
+
+        </fieldset>
+
+    </form>
+</body>
